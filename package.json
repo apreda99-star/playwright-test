@@ -1,0 +1,12 @@
+{
+  "name": "playwright-test",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen https://example.com"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  }
+}
